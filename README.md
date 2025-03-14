@@ -6,9 +6,9 @@
 
 # 🌸 Anime-Pictures 爬虫：二次元美图，一键get！🌸
 
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/你的仓库名.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/你的用户名/你的仓库名/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/你的用户名/你的仓库名.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/你的用户名/你的仓库名/network/)
-[![GitHub license](https://img.shields.io/github/license/你的用户名/你的仓库名.svg)](https://GitHub.com/你的用户名/你的仓库名/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/qianye60/AnimePicCrawler.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/qianye60/AnimePicCrawler/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/qianye60/AnimePicCrawler.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/qianye60/AnimePicCrawler/network/)
+[![GitHub license](https://img.shields.io/github/license/qianye60/AnimePicCrawler.svg)](https://GitHub.com/qianye60/AnimePicCrawler/blob/master/LICENSE)
 
 ## 🌟 项目简介
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 1.  **克隆项目**：
 
     ```bash
-    git clone https://github.com/你的用户名/你的仓库名.git
+    git clone https://github.com/qianye60/AnimePicCrawler.git
     cd 你的仓库名
     ```
 
