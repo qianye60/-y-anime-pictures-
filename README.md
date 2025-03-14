@@ -1,7 +1,4 @@
-### 项目展示
 
-![image](https://github.com/user-attachments/assets/461929b4-06e4-4f9b-9d2b-991f1bf5e348)
-![image](https://github.com/user-attachments/assets/fbd031c5-2bae-4126-9176-2299d7c20bce)
 
 
 # 🌸 Anime-Pictures 爬虫：二次元美图，一键get！🌸
@@ -17,6 +14,11 @@
 别担心，**Anime-Pictures 爬虫**来拯救你啦！🚀
 
 本项目基于 Python 和强大的 Selenium 库，专为 [Anime-Pictures.net](https://anime-pictures.net/) 设计，让你轻松爬取海量高质量动漫美图。无论是想批量下载壁纸，还是想建立自己的图库，它都能满足你！
+
+### 项目展示
+
+![image](https://github.com/user-attachments/assets/461929b4-06e4-4f9b-9d2b-991f1bf5e348)
+![image](https://github.com/user-attachments/assets/fbd031c5-2bae-4126-9176-2299d7c20bce)
 
 ### ✨ 特色功能
 
