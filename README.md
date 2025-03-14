@@ -1,7 +1,3 @@
-OK，这项目 README 我给你包了！保准又酷炫又实用，让你的项目在 GitHub 上闪闪发光！✨
-
-（温馨提示：由于实际的 README 文件是 Markdown 格式，这里为了方便展示，我用更易读的方式呈现。你可以直接复制 Markdown 部分到你的 README.md 文件里。）
-
 ### 项目展示
 
 ![image](https://github.com/user-attachments/assets/461929b4-06e4-4f9b-9d2b-991f1bf5e348)
