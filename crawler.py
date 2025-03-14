@@ -11,6 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import login
 import set_maxpage
 
+
 url = "https://anime-pictures.net/posts?page={}&search_tag=girl&order_by=rating&ldate=4&lang=zh-cn"
 
 
@@ -22,7 +23,7 @@ class photos:
         self.end = end
         self.last_number = last_number
 
-        self.driver = uc.Chrome() #使用Chrome浏览器
+        self.driver = uc.Chrome()  #driver_executable_path=r".\chromedriver.exe"
         self.wait = WebDriverWait(self.driver, 60, 0.2)
         self.driver.implicitly_wait(10)
         if login_flag == 1:
@@ -32,7 +33,8 @@ class photos:
             set_maxpage.set(driver=self.driver, number=self.number)
 
         time.sleep(random.uniform(2, 4))
-      
+        #运行隐藏参数js
+        # self.driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {'source': js})
     def page(self,count):
         #加载页面
         self.driver.get(self.url.format(count))
@@ -43,14 +45,14 @@ class photos:
     def all(self,last_number):
         for i in range(last_number,self.number+1):
             time.sleep(random.uniform(1,1.5))
-            target = self.driver.find_element(By.XPATH,f"//*[@id=\"svelte\"]/div/div[1]/div[1]/div/div[2]/div[2]/span[{i}]/a/picture/img")
+            target = self.driver.find_element(By.XPATH,f"//*[@id=\"svelte\"]//span[{i}]/a/picture/img[@class=\"svelte-1ibbyvk\"]")
             time.sleep(random.uniform(1,1.6))
             empty = target.location_once_scrolled_into_view
             time.sleep(random.uniform(1, 1.6))
             target.click()
             time.sleep(random.uniform(1,1.8))
-            self.wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"svelte\"]/div/div[1]/div[1]/div[2]/div[2]/div[2]/span[2]/a")))
-            target = self.driver.find_element(By.XPATH,"//*[@id=\"svelte\"]/div/div[1]/div[1]/div[2]/div[2]/div[2]/span[2]/a")
+            self.wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"svelte\"]/div/div[1]/div[1]//span[2]/a[@rel=\"external nofollow\"]")))
+            target = self.driver.find_element(By.XPATH,"//*[@id=\"svelte\"]/div/div[1]/div[1]//span[2]/a[@rel=\"external nofollow\"]")
             empty = target.location_once_scrolled_into_view
             time.sleep(random.uniform(1,1.6))
             target.click()
@@ -78,3 +80,4 @@ if __name__ == "__main__":
     web_crawler = photos(url, number, last_number, login_flag, start, end)
     web_crawler.run()
     exit()
+
