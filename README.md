@@ -1,13 +1,11 @@
 ### 项目展示
 
 ![image](https://github.com/user-attachments/assets/461929b4-06e4-4f9b-9d2b-991f1bf5e348)
-![image](https://github.com/user-attachments/assets/70ca2dc3-b890-44c1-babf-69ca857573fa)
 
 # 🌸 Anime-Pictures 爬虫：二次元美图，一键get！🌸
 
 [![GitHub stars](https://img.shields.io/github/stars/qianye60/AnimePicCrawler.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/qianye60/AnimePicCrawler/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/qianye60/AnimePicCrawler.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/qianye60/AnimePicCrawler/network/)
-[![GitHub license](https://img.shields.io/github/license/qianye60/AnimePicCrawler.svg)](https://GitHub.com/qianye60/AnimePicCrawler/blob/master/LICENSE)
+![image](https://github.com/user-attachments/assets/d3aa5ed1-b0d7-4864-89c3-ccb98493e486)
 
 ## 🌟 项目简介
 
